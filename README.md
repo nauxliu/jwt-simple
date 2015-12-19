@@ -11,14 +11,14 @@
 ```php
 $secret = 'xxx';
 
-$jwt = new \Naux\JWT($secret'); 
+$jwt = new \Naux\JWT($secret); 
 $payload = ['iss' => 1, 'exp' => 1450539234, 'foo' => 'bar'];
 
 // encode
 $token = $jwt->encode($payload);
 
 // decode
-$decoded = $jwt->decode($payload);
+$decoded = $jwt->decode($token);
 
 var_dump($decoded);
 ```
