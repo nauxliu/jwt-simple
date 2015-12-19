@@ -1,5 +1,5 @@
 {
-    "name": "nauxliu/jwt-simple",
+    "name": "naux/jwt-simple",
     "require": {
         "namshi/jose": "^6.0"
     },
