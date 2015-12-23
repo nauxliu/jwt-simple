@@ -10,8 +10,8 @@
         }
     ],
      "autoload-dev": {
-        "classmap": [
-            "src/JWT.php"
-        ]
+        "psr-4": {
+            "Naux\\": "src/"
+        }
     }
 }
