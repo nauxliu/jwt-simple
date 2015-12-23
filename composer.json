@@ -9,7 +9,7 @@
             "email": "nauxliu@gmail.com"
         }
     ],
-     "autoload-dev": {
+     "autoload": {
         "psr-4": {
             "Naux\\JWT\\": "src/"
         }
