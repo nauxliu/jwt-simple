@@ -1,6 +1,6 @@
 <?php
 
-namespace Naux;
+namespace Naux\JWT;
 
 use Namshi\JOSE\JWS;
 
